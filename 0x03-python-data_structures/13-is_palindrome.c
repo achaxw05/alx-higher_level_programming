@@ -16,11 +16,11 @@ int is_palindrome(listint_t **head)
 }
 
 /**
- * aux_palind - function to know if is palindrome
+ * aux_palind - funct to know if is palindrome
  * @head: head list
  * @end: end list
- * Return: 0 if it is not a palindrome
- * 1 if it is a palindrome
+ * @return 1 if the input is a palindrome
+ * 0 otherwise
 */
 int aux_palind(listint_t **head, listint_t *end)
 {
